@@ -1,3 +1,54 @@
+/* GLobal Styles */
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+  font-weight: 600;
+  font-size: 2.3rem;
+  margin: 0;
+}
+.hero-text {
+  font-weight: 300;
+}
+img {
+  width: 100%;
+}
+
+/* Navigation */
+header {
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+nav {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  width: 110px;
+}
+
+/* Hero */
+.hero {
+  padding: 2em 0;
+}
+.image-grid {
+  display: block;
+  min-width: 350px;
+  max-width: 700px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.hero-text {
+  max-width: 400px;
+  font-size: 1rem;
 }
