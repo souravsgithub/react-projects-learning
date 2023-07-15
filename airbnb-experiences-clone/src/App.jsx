@@ -1,20 +1,32 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import katie from "/katie.png";
+import data from "./data.js";
+
 export default function App() {
+  const cards = data.map((card) => {
+    return (
+        <Card 
+          img={card.coverImg}
+          rating={card.stats.rating}
+          reviewCount={card.stats.reviewCount}
+          location={card.location}
+          title={card.title}
+          price={card.price}
+          key={card.id}
+          openSpots={card.openSpots}
+        />
+    );
+  });
   return (
     <>
       <Navbar />
       <Hero />
-      <Card 
-        img={katie}
-        rating={5.0}
-        reviewCount={6}
-        country="USA"
-        title="Life lessons with Katie Zeferes"
-        price={136}
-      /> 
+      <section className="cards-list">
+        {cards}
+      </section>
     </>
   );
 }
+
+
