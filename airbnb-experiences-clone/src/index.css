@@ -8,6 +8,12 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.grey {
+  color: #918E9B;
+}
+.bold {
+  font-weight: 700;
+}
 
 /* Typography */
 h1 {
@@ -51,4 +57,21 @@ nav {
 .hero-text {
   max-width: 400px;
   font-size: 1rem;
+}
+
+/* Card */
+.card {
+  margin-left: 5%;
+  width: 40%;
+  max-width: 300px;
+  font-size: 0.7rem;
+}
+.card-img {
+  width: 100%;
+}
+.card-star {
+  width: 0.875em;
+}
+.card p {
+  margin: 0.3em 0;
 }
