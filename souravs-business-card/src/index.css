@@ -41,6 +41,7 @@ a {
 }
 .info-btns > a {
   font-size: 0.95rem;
+  font-weight: 500;
   background: #ffffff;
   color: #374151;
   padding: 0.7em 3em;
@@ -52,6 +53,7 @@ a {
 a.less {
   padding: 0.7em 2em;
   background-color: #86be9f;
+  color: #ffffff;
 }
 .small {
   width: 17px;
