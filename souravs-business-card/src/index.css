@@ -64,7 +64,10 @@ a.less {
   text-align: center;
 }
 .my-photo {
+  margin-top: 3em;
   margin-bottom: 1em;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 50%;
+  width: 50%;
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
 }
