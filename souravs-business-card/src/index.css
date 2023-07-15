@@ -52,7 +52,6 @@ a {
 a.less {
   padding: 0.7em 2em;
   background-color: #86be9f;
-  color: white;
 }
 .small {
   width: 17px;
@@ -64,4 +63,6 @@ a.less {
 }
 .my-photo {
   margin-bottom: 1em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
