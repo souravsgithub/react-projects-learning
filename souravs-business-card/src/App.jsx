@@ -1,3 +1,8 @@
+import Info from "./components/Info";
 export default function App() {
-  return <h1>Hello</h1>;
+  return(
+    <section className="container">
+      <Info />
+    </section>
+  );
 }
