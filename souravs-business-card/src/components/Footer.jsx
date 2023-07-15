@@ -6,10 +6,10 @@ export default function Footer() {
     return (
         <footer>
             <div className="container-socials">
-                <a href="#"><img src={twitter} alt="" className="social-img"/></a>
-                <a href="#"><img src={facebook} alt="" className="social-img"/></a>
-                <a href="#"><img src={insta} alt="" className="social-img"/></a>
-                <a href="#"><img src={github} alt="" className="social-img"/></a>
+                <a href="https://twitter.com/souravstwt" target="_blank"><img src={twitter} alt="" className="social-img"/></a>
+                <a href="https://google.com" target="_blank"><img src={facebook} alt="" className="social-img"/></a>
+                <a href="https://www.instagram.com/the.souravkumar/" target="_blank"><img src={insta} alt="" className="social-img"/></a>
+                <a href="https://github.com/souravsgithub" target="_blank"><img src={github} alt="" className="social-img"/></a>
             </div>
         </footer>
     );
