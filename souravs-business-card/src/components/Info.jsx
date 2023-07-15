@@ -7,7 +7,7 @@ export default function Info() {
             <img src={me} alt="A-photo-of-mine" className="my-photo" />
             <h1>Sourav Kumar</h1>
             <h2>Fullstack Developer</h2>
-            <p><a href="sourav-kumar.vercel.app" target="_blank">sourav's portfolio</a></p>
+            <p className="portfolio"><a href="sourav-kumar.vercel.app" target="_blank">sourav's portfolio</a></p>
             <div className="info-btns">
                 <a href="mailto: souravsemail2001@gmail.com">
                     <img src={emailLogo} alt="email-link" className="small"/>
