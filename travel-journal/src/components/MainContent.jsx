@@ -4,5 +4,5 @@ export default function MainContent(props) {
   const places = props.data.map((cardInfo) => {
     return <Travelled {...cardInfo} key={cardInfo.id} />;
   });
-  return places;
+  return <section className="container-main">{places}</section>;
 }
