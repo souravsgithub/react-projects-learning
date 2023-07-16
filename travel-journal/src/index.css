@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     padding: 1.5em 1em;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
     .container-main {
         padding: 2em;
     }
