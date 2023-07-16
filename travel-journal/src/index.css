@@ -4,9 +4,6 @@ body {
     color: #2B283A;
     margin: 0;
 }
-.container-main {
-    padding: 0em 0.5em;
-}
 .container {
     max-width: 600px;
     margin: 0 auto;
