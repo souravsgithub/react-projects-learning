@@ -1,0 +1,72 @@
+/* Global */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Typography */
+h1, h2, h3 {
+    margin: 0;
+}
+h1 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.6em;
+}
+h3 {
+    font-weight: 700;
+}
+p {
+    font-size: 1rem;
+}
+span, a, h3 {
+    font-size: 0.9rem;
+}
+a {
+    color: #918E9B;
+    text-decoration: none;
+    border-bottom: 1px solid #918E9B;
+}
+
+/* Layout */
+header {
+    background-color: #F55A5A;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 1.3em 0;
+}
+.travelled-img {
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+.location-info-container {
+    margin-bottom: 0.8em;
+}
+.location-logo {
+    width: 10px;
+    margin-right: 0.5em;
+}
+.location-info-container > span {
+    font-weight: 400;
+    margin-right: 1em;
+    letter-spacing: 2px;
+}

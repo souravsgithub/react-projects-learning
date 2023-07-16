@@ -1,12 +1,12 @@
 import locationLogo from "/images/location.png";
 import japanImg from "/images/japan.jpg";
 
-export default function Travelled() {
+export default function Travelled(props) {
   return (
-    <section className="travelled-card">
+    <section className="travelled-card container">
       <div className="travelled-img-container">
         <img
-          src={japanImg}
+          src={`/images/${props.imageUrl}`}
           alt="image of a mountain"
           className="travelled-img"
         />
@@ -18,16 +18,14 @@ export default function Travelled() {
             className="location-logo"
             alt="location-logo"
           />
-          <span>JAPAN</span>
-          <a href="#">View on Google Maps</a>
+          <span>{props.location}</span>
+          <a href={props.googleMapsUrl}>View on Google Maps</a>
         </div>
-        <h2>Mountain Fuji</h2>
-        <h3>12 Jan, 2021 - 24 Jan, 2021</h3>
-        <p>
-          Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters
-          (12,380 feet). Mount Fuji is the single most popular tourist site in
-          Japan, for both Japanese and foreign tourists.
-        </p>
+        <h2>{props.title}</h2>
+        <h3>
+          {props.startDate} - {props.endDate}
+        </h3>
+        <p>{props.description}</p>
       </div>
     </section>
   );
